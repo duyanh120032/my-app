@@ -1,0 +1,19 @@
+.footer{
+    padding:70px 0;
+    box-shadow: $box-shadow;
+    font-size: 1.25rem;
+    line-height:30px;
+    & a:hover{
+        color: $main-color;
+    }
+    &__logo{
+        height:40px;
+        margin-bottom: 10px;
+
+    }
+    &__title{
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        font-weight: 600;
+    }
+}
